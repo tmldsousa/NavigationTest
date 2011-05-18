@@ -32,6 +32,7 @@
 		FC96A9B71381FD1300A44C61 /* NewClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC96A9B51381FD1300A44C61 /* NewClientViewController.xib */; };
 		FC973BC7138340C400BFA513 /* GoogleMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC973BC5138340C300BFA513 /* GoogleMapView.m */; };
 		FC973BC8138340C400BFA513 /* GoogleMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC973BC6138340C300BFA513 /* GoogleMapView.xib */; };
+		FC973CE7138367C500BFA513 /* getGoogleMap.htm in Resources */ = {isa = PBXBuildFile; fileRef = FC973CE6138367C500BFA513 /* getGoogleMap.htm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		FC973BC4138340C300BFA513 /* GoogleMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapView.h; sourceTree = "<group>"; };
 		FC973BC5138340C300BFA513 /* GoogleMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapView.m; sourceTree = "<group>"; };
 		FC973BC6138340C300BFA513 /* GoogleMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleMapView.xib; sourceTree = "<group>"; };
+		FC973CE6138367C500BFA513 /* getGoogleMap.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = getGoogleMap.htm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		FC96A9561381829A00A44C61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC973CE6138367C500BFA513 /* getGoogleMap.htm */,
 				FC96A9571381829A00A44C61 /* NavigationTest-Info.plist */,
 				FC96A9581381829A00A44C61 /* InfoPlist.strings */,
 				FC96A95B1381829A00A44C61 /* NavigationTest-Prefix.pch */,
@@ -269,6 +272,7 @@
 				FC96A9AF1381E61100A44C61 /* DetailsViewController.xib in Resources */,
 				FC96A9B71381FD1300A44C61 /* NewClientViewController.xib in Resources */,
 				FC973BC8138340C400BFA513 /* GoogleMapView.xib in Resources */,
+				FC973CE7138367C500BFA513 /* getGoogleMap.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
