@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC96A94E1381829A00A44C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96A94D1381829A00A44C61 /* UIKit.framework */; };
+		FC96A9501381829A00A44C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96A94F1381829A00A44C61 /* Foundation.framework */; };
+		FC96A9521381829A00A44C61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96A9511381829A00A44C61 /* CoreGraphics.framework */; };
+		FC96A9541381829A00A44C61 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96A9531381829A00A44C61 /* CoreData.framework */; };
+		FC96A95A1381829A00A44C61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC96A9581381829A00A44C61 /* InfoPlist.strings */; };
+		FC96A95D1381829A00A44C61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96A95C1381829A00A44C61 /* main.m */; };
+		FC96A9601381829A00A44C61 /* NavigationTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96A95F1381829A00A44C61 /* NavigationTestAppDelegate.m */; };
+		FC96A9631381829B00A44C61 /* NavigationTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC96A9611381829B00A44C61 /* NavigationTest.xcdatamodeld */; };
+		FC96A9661381829B00A44C61 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC96A9641381829B00A44C61 /* MainWindow.xib */; };
+		FC96A9691381829B00A44C61 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96A9681381829B00A44C61 /* RootViewController.m */; };
+		FC96A96C1381829B00A44C61 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC96A96A1381829B00A44C61 /* RootViewController.xib */; };
+		FC96A9731381829C00A44C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96A94D1381829A00A44C61 /* UIKit.framework */; };
+		FC96A9741381829C00A44C61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96A94F1381829A00A44C61 /* Foundation.framework */; };
+		FC96A9751381829C00A44C61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96A9511381829A00A44C61 /* CoreGraphics.framework */; };
+		FC96A9761381829C00A44C61 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96A9531381829A00A44C61 /* CoreData.framework */; };
+		FC96A97E1381829C00A44C61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC96A97C1381829C00A44C61 /* InfoPlist.strings */; };
+		FC96A9811381829C00A44C61 /* NavigationTestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = FC96A9801381829C00A44C61 /* NavigationTestTests.h */; };
+		FC96A9831381829C00A44C61 /* NavigationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96A9821381829C00A44C61 /* NavigationTestTests.m */; };
+		FC96A9AE1381E61100A44C61 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96A9AC1381E61100A44C61 /* DetailsViewController.m */; };
+		FC96A9AF1381E61100A44C61 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC96A9AD1381E61100A44C61 /* DetailsViewController.xib */; };
+		FC96A9B21381EC8E00A44C61 /* Cliente.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96A9B11381EC8E00A44C61 /* Cliente.m */; };
+		FC96A9B61381FD1300A44C61 /* NewClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96A9B41381FD1200A44C61 /* NewClientViewController.m */; };
+		FC96A9B71381FD1300A44C61 /* NewClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC96A9B51381FD1300A44C61 /* NewClientViewController.xib */; };
+		FC973BC7138340C400BFA513 /* GoogleMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC973BC5138340C300BFA513 /* GoogleMapView.m */; };
+		FC973BC8138340C400BFA513 /* GoogleMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC973BC6138340C300BFA513 /* GoogleMapView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC96A9771381829C00A44C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC96A9401381829900A44C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC96A9481381829A00A44C61;
+			remoteInfo = NavigationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC96A9491381829A00A44C61 /* NavigationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC96A94D1381829A00A44C61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC96A94F1381829A00A44C61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC96A9511381829A00A44C61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC96A9531381829A00A44C61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC96A9571381829A00A44C61 /* NavigationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationTest-Info.plist"; sourceTree = "<group>"; };
+		FC96A9591381829A00A44C61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC96A95B1381829A00A44C61 /* NavigationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationTest-Prefix.pch"; sourceTree = "<group>"; };
+		FC96A95C1381829A00A44C61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC96A95E1381829A00A44C61 /* NavigationTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationTestAppDelegate.h; sourceTree = "<group>"; };
+		FC96A95F1381829A00A44C61 /* NavigationTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTestAppDelegate.m; sourceTree = "<group>"; };
+		FC96A9621381829B00A44C61 /* NavigationTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NavigationTest.xcdatamodel; sourceTree = "<group>"; };
+		FC96A9651381829B00A44C61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FC96A9671381829B00A44C61 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FC96A9681381829B00A44C61 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		FC96A96B1381829B00A44C61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		FC96A9721381829C00A44C61 /* NavigationTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC96A97B1381829C00A44C61 /* NavigationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationTestTests-Info.plist"; sourceTree = "<group>"; };
+		FC96A97D1381829C00A44C61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC96A97F1381829C00A44C61 /* NavigationTestTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationTestTests-Prefix.pch"; sourceTree = "<group>"; };
+		FC96A9801381829C00A44C61 /* NavigationTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationTestTests.h; sourceTree = "<group>"; };
+		FC96A9821381829C00A44C61 /* NavigationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationTestTests.m; sourceTree = "<group>"; };
+		FC96A9AB1381E61100A44C61 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		FC96A9AC1381E61100A44C61 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		FC96A9AD1381E61100A44C61 /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		FC96A9B01381EC8E00A44C61 /* Cliente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cliente.h; sourceTree = "<group>"; };
+		FC96A9B11381EC8E00A44C61 /* Cliente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cliente.m; sourceTree = "<group>"; };
+		FC96A9B31381FD1200A44C61 /* NewClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClientViewController.h; sourceTree = "<group>"; };
+		FC96A9B41381FD1200A44C61 /* NewClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewClientViewController.m; sourceTree = "<group>"; };
+		FC96A9B51381FD1300A44C61 /* NewClientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewClientViewController.xib; sourceTree = "<group>"; };
+		FC973BC4138340C300BFA513 /* GoogleMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapView.h; sourceTree = "<group>"; };
+		FC973BC5138340C300BFA513 /* GoogleMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapView.m; sourceTree = "<group>"; };
+		FC973BC6138340C300BFA513 /* GoogleMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleMapView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC96A9461381829A00A44C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC96A94E1381829A00A44C61 /* UIKit.framework in Frameworks */,
+				FC96A9501381829A00A44C61 /* Foundation.framework in Frameworks */,
+				FC96A9521381829A00A44C61 /* CoreGraphics.framework in Frameworks */,
+				FC96A9541381829A00A44C61 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC96A96E1381829C00A44C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC96A9731381829C00A44C61 /* UIKit.framework in Frameworks */,
+				FC96A9741381829C00A44C61 /* Foundation.framework in Frameworks */,
+				FC96A9751381829C00A44C61 /* CoreGraphics.framework in Frameworks */,
+				FC96A9761381829C00A44C61 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC96A93E1381829900A44C61 = {
+			isa = PBXGroup;
+			children = (
+				FC96A9551381829A00A44C61 /* NavigationTest */,
+				FC96A9791381829C00A44C61 /* NavigationTestTests */,
+				FC96A94C1381829A00A44C61 /* Frameworks */,
+				FC96A94A1381829A00A44C61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC96A94A1381829A00A44C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC96A9491381829A00A44C61 /* NavigationTest.app */,
+				FC96A9721381829C00A44C61 /* NavigationTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC96A94C1381829A00A44C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC96A94D1381829A00A44C61 /* UIKit.framework */,
+				FC96A94F1381829A00A44C61 /* Foundation.framework */,
+				FC96A9511381829A00A44C61 /* CoreGraphics.framework */,
+				FC96A9531381829A00A44C61 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC96A9551381829A00A44C61 /* NavigationTest */ = {
+			isa = PBXGroup;
+			children = (
+				FC96A9B01381EC8E00A44C61 /* Cliente.h */,
+				FC96A9B11381EC8E00A44C61 /* Cliente.m */,
+				FC96A95E1381829A00A44C61 /* NavigationTestAppDelegate.h */,
+				FC96A95F1381829A00A44C61 /* NavigationTestAppDelegate.m */,
+				FC96A9641381829B00A44C61 /* MainWindow.xib */,
+				FC96A9671381829B00A44C61 /* RootViewController.h */,
+				FC96A9681381829B00A44C61 /* RootViewController.m */,
+				FC96A96A1381829B00A44C61 /* RootViewController.xib */,
+				FC96A9611381829B00A44C61 /* NavigationTest.xcdatamodeld */,
+				FC96A9561381829A00A44C61 /* Supporting Files */,
+				FC96A9AB1381E61100A44C61 /* DetailsViewController.h */,
+				FC96A9AC1381E61100A44C61 /* DetailsViewController.m */,
+				FC96A9AD1381E61100A44C61 /* DetailsViewController.xib */,
+				FC96A9B31381FD1200A44C61 /* NewClientViewController.h */,
+				FC96A9B41381FD1200A44C61 /* NewClientViewController.m */,
+				FC96A9B51381FD1300A44C61 /* NewClientViewController.xib */,
+				FC973BC4138340C300BFA513 /* GoogleMapView.h */,
+				FC973BC5138340C300BFA513 /* GoogleMapView.m */,
+				FC973BC6138340C300BFA513 /* GoogleMapView.xib */,
+			);
+			path = NavigationTest;
+			sourceTree = "<group>";
+		};
+		FC96A9561381829A00A44C61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC96A9571381829A00A44C61 /* NavigationTest-Info.plist */,
+				FC96A9581381829A00A44C61 /* InfoPlist.strings */,
+				FC96A95B1381829A00A44C61 /* NavigationTest-Prefix.pch */,
+				FC96A95C1381829A00A44C61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC96A9791381829C00A44C61 /* NavigationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC96A9801381829C00A44C61 /* NavigationTestTests.h */,
+				FC96A9821381829C00A44C61 /* NavigationTestTests.m */,
+				FC96A97A1381829C00A44C61 /* Supporting Files */,
+			);
+			path = NavigationTestTests;
+			sourceTree = "<group>";
+		};
+		FC96A97A1381829C00A44C61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC96A97B1381829C00A44C61 /* NavigationTestTests-Info.plist */,
+				FC96A97C1381829C00A44C61 /* InfoPlist.strings */,
+				FC96A97F1381829C00A44C61 /* NavigationTestTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC96A9481381829A00A44C61 /* NavigationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC96A9861381829C00A44C61 /* Build configuration list for PBXNativeTarget "NavigationTest" */;
+			buildPhases = (
+				FC96A9451381829A00A44C61 /* Sources */,
+				FC96A9461381829A00A44C61 /* Frameworks */,
+				FC96A9471381829A00A44C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationTest;
+			productName = NavigationTest;
+			productReference = FC96A9491381829A00A44C61 /* NavigationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC96A9711381829C00A44C61 /* NavigationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC96A9891381829C00A44C61 /* Build configuration list for PBXNativeTarget "NavigationTestTests" */;
+			buildPhases = (
+				FC96A96D1381829C00A44C61 /* Sources */,
+				FC96A96E1381829C00A44C61 /* Frameworks */,
+				FC96A96F1381829C00A44C61 /* Resources */,
+				FC96A9701381829C00A44C61 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC96A9781381829C00A44C61 /* PBXTargetDependency */,
+			);
+			name = NavigationTestTests;
+			productName = NavigationTestTests;
+			productReference = FC96A9721381829C00A44C61 /* NavigationTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC96A9401381829900A44C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ArquiConsult;
+			};
+			buildConfigurationList = FC96A9431381829900A44C61 /* Build configuration list for PBXProject "NavigationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC96A93E1381829900A44C61;
+			productRefGroup = FC96A94A1381829A00A44C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC96A9481381829A00A44C61 /* NavigationTest */,
+				FC96A9711381829C00A44C61 /* NavigationTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC96A9471381829A00A44C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC96A95A1381829A00A44C61 /* InfoPlist.strings in Resources */,
+				FC96A9661381829B00A44C61 /* MainWindow.xib in Resources */,
+				FC96A96C1381829B00A44C61 /* RootViewController.xib in Resources */,
+				FC96A9AF1381E61100A44C61 /* DetailsViewController.xib in Resources */,
+				FC96A9B71381FD1300A44C61 /* NewClientViewController.xib in Resources */,
+				FC973BC8138340C400BFA513 /* GoogleMapView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC96A96F1381829C00A44C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC96A97E1381829C00A44C61 /* InfoPlist.strings in Resources */,
+				FC96A9811381829C00A44C61 /* NavigationTestTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC96A9701381829C00A44C61 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC96A9451381829A00A44C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC96A95D1381829A00A44C61 /* main.m in Sources */,
+				FC96A9601381829A00A44C61 /* NavigationTestAppDelegate.m in Sources */,
+				FC96A9631381829B00A44C61 /* NavigationTest.xcdatamodeld in Sources */,
+				FC96A9691381829B00A44C61 /* RootViewController.m in Sources */,
+				FC96A9AE1381E61100A44C61 /* DetailsViewController.m in Sources */,
+				FC96A9B21381EC8E00A44C61 /* Cliente.m in Sources */,
+				FC96A9B61381FD1300A44C61 /* NewClientViewController.m in Sources */,
+				FC973BC7138340C400BFA513 /* GoogleMapView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC96A96D1381829C00A44C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC96A9831381829C00A44C61 /* NavigationTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC96A9781381829C00A44C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC96A9481381829A00A44C61 /* NavigationTest */;
+			targetProxy = FC96A9771381829C00A44C61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC96A9581381829A00A44C61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC96A9591381829A00A44C61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC96A9641381829B00A44C61 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC96A9651381829B00A44C61 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FC96A96A1381829B00A44C61 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC96A96B1381829B00A44C61 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC96A97C1381829C00A44C61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC96A97D1381829C00A44C61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC96A9841381829C00A44C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC96A9851381829C00A44C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FC96A9871381829C00A44C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTest/NavigationTest-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTest/NavigationTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC96A9881381829C00A44C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTest/NavigationTest-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTest/NavigationTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC96A98A1381829C00A44C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationTest.app/NavigationTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTestTests/NavigationTestTests-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTestTests/NavigationTestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FC96A98B1381829C00A44C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationTest.app/NavigationTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationTestTests/NavigationTestTests-Prefix.pch";
+				INFOPLIST_FILE = "NavigationTestTests/NavigationTestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC96A9431381829900A44C61 /* Build configuration list for PBXProject "NavigationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC96A9841381829C00A44C61 /* Debug */,
+				FC96A9851381829C00A44C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC96A9861381829C00A44C61 /* Build configuration list for PBXNativeTarget "NavigationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC96A9871381829C00A44C61 /* Debug */,
+				FC96A9881381829C00A44C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC96A9891381829C00A44C61 /* Build configuration list for PBXNativeTarget "NavigationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC96A98A1381829C00A44C61 /* Debug */,
+				FC96A98B1381829C00A44C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC96A9611381829B00A44C61 /* NavigationTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC96A9621381829B00A44C61 /* NavigationTest.xcdatamodel */,
+			);
+			currentVersion = FC96A9621381829B00A44C61 /* NavigationTest.xcdatamodel */;
+			path = NavigationTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC96A9401381829900A44C61 /* Project object */;
+}
