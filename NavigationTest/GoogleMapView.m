@@ -43,7 +43,7 @@
     [super viewDidLoad];
     self.title = address;
     
-    NSString * stringURL = [NSString stringWithFormat:@"file:///Users/tspinguim/Documents/iOSProjects/getGoogleMap.htm?clientAddress=%@",[address stringByReplacingOccurrencesOfString:@" " withString:@"_"]];
+    NSString * stringURL = [NSString stringWithFormat:@"file:///Users/tspinguim/Documents/iOSProjects/NavigationTest/NavigationTest/getGoogleMap.htm?clientAddress=%@",address];
     NSURL * url = [NSURL URLWithString:stringURL];
     NSURLRequest * request = [NSURLRequest requestWithURL:url];
     

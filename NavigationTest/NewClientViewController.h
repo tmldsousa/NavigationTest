@@ -8,13 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewClientViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate> {
+@interface NewClientViewController : UIViewController <UITextFieldDelegate, UITextViewDelegate, UIScrollViewDelegate> {
     IBOutlet UITextField * txtFieldNome;
     IBOutlet UITextField * txtFieldContacto;
     IBOutlet UITextField * txtFieldMorada;
     IBOutlet UITextView * txtViewNotas;
     
-    UIViewController *caller;    
+    IBOutlet UIScrollView * scrollView;
+    
+    UITextField * activeTextField;
+    UITextView * activeTextView;
+    
+    UIViewController *caller;  
+    
+    CGPoint svos;
 }
 
 @property(nonatomic, retain)  UITextField * txtFieldNome;
@@ -23,6 +30,11 @@
 @property(nonatomic, retain)  UITextView * txtViewNotas;
 
 @property(nonatomic, retain) UIViewController * caller;
+
+@property(nonatomic, retain) UIScrollView * scrollView;
+
+@property(nonatomic, retain) UITextField * activeTextField;
+@property(nonatomic, retain) UITextView * activeTextView;
 
 - (IBAction) buttonCrateClick;
 - (IBAction) dismissKeyboard;
